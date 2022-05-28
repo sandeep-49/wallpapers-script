@@ -2,7 +2,7 @@
 
 A simple python automation script to fetch wallpaper from Unsplash and also update as desktop wallpaper.
 
-To set the wallpaper in MacOS, replace this:
+To set the wallpaper in MacOS, remove SPI_SETDESKWALLPAPER parameter and replace:
 
 ```
 ctypes.windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, wallpaper, 0)
